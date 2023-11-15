@@ -10,12 +10,20 @@ The **PCB-Parts** repository should contain any part or library files for the pr
 ##Folder Structure
 The PCB-Design and PCB-Parts repositories should be organized in a parent folder as follows:
 
-```dot
-graph G {
-    node [shape = rectangle, fontname = Arial]
+```mermaid
+    graph TD;
+        A[Parent Directory]---B[PCB-Design];
+        A---C[PCB-Parts];
+        B---D[Project1];
+        B---E[Project2];
+        C---F[Project1Parts]
+        C---G[Project2Parts]
 
-    "[Parent Directory]" -- {"PCB-Design" [color=blue, fontcolor=blue, URL="https://github.com/wmBaja/PCB-Design"] "PCB-Parts" [color=blue, fontcolor=blue, URL="https://github.com/wmBaja/PCB-Parts"]}
-    "PCB-Design" -- {"[Project1]" "[Project2]"}
-    "PCB-Parts" -- {"[Project1Parts]" "[Project2Parts]"}
-}
+        classDef default fill:white, stroke:black, stroke-width:2px;
+        style B color:blue
+        style C color:blue
+
+        click B "https://github.com/wmBaja/PCB-Design" _blank;
+        click C "https://github.com/wmBaja/PCB-Parts" _blank;
+
 ```
