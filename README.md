@@ -7,7 +7,7 @@ The **PCB-Design** repository should contain folders for each current project. T
 
 The **PCB-Parts** repository should contain any part or library files for the projects in PCB-Design. These part files can include KiCAD symbols or footprints, 3D models, datasheets, 
 
-##Folder Structure
+## Folder Structure
 The PCB-Design and PCB-Parts repositories should be organized in a parent folder as follows:
 
 ```mermaid
