@@ -471,7 +471,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "OBDBajaUC.step",
+      "step": "../../../PCB-Parts/3D Models/OBD Baja/OBDBajaUC.step",
       "vrml": "../OBDBajaUC.wrl"
     },
     "page_layout_descr_file": ""
