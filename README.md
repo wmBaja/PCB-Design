@@ -27,3 +27,6 @@ The PCB-Design and PCB-Parts repositories should be organized in a parent folder
         click C "https://github.com/wmBaja/PCB-Parts" _blank;
 
 ```
+
+## OBD Baja 2.0 3D Model
+<iframe src="https://collaborate.shapr3d.com/v/RQxqZTwWx0Oz6eKVTlwwQ" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>
