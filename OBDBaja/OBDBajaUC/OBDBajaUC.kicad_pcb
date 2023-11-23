@@ -84,7 +84,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "gerber")
     )
   )
 
@@ -1260,7 +1260,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
-    (model "../../../PCB-Parts/KiCad Libraries/3D/2.8 TFT Module.step" hide
+    (model "../../../PCB-Parts/KiCad Libraries/3D/2.8 TFT Module.step"
       (offset (xyz 40.767 -16.51 -10.7188))
       (scale (xyz 1 1 1))
       (rotate (xyz -180 0 90))
@@ -2417,7 +2417,7 @@
       (net 31 "unconnected-(U1-32_OUT1B-Pad43)") (pinfunction "32_OUT1B") (pintype "bidirectional+no_connect") (tstamp fbc65ae3-9287-49d0-a956-f6dc401cfffd))
     (pad "44" thru_hole circle (at 8.89 -5.08 270) (size 1.8 1.8) (drill 1.14) (layers "*.Cu" "*.Mask")
       (net 32 "unconnected-(U1-33_MCLK2-Pad44)") (pinfunction "33_MCLK2") (pintype "bidirectional+no_connect") (tstamp dc234741-0189-411a-8e2e-6dfae6425d0f))
-    (model "../../../PCB-Parts/KiCad Libraries/3D/teensy/Teensy_4.0_Assembly.step" hide
+    (model "../../../PCB-Parts/KiCad Libraries/3D/teensy/Teensy_4.0_Assembly.step"
       (offset (xyz 32.9692 9.398 -7.62))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
