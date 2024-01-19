@@ -3,9 +3,11 @@
 ## Introduction
 The **PCB-Design** and **[PCB-Parts](https://github.com/wmBaja/PCB-Parts)** repositories contain Pack Motorsports Baja's current and previous PCB projects. The two repositories are designed to be used together.
 
-The **PCB-Design** repository should contain folders for each current project. The projects should contain KiCAD project files/folders, but NOT libraries or part files.
+The **PCB-Design** repository should contain folders for each current project. The projects should contain KiCAD project files or subfolders, but NOT libraries or part files.
 
-The **PCB-Parts** repository should contain any part or library files for the projects in PCB-Design. These part files can include KiCAD symbols or footprints, 3D models, datasheets, 
+The **PCB-Parts** repository should contain any part or library files for the projects in PCB-Design. These part files can include KiCAD symbols or footprints, 3D models, datasheets, or any other relevant files.
+
+KiCAD projects in **PCB-Design** should have references to symbols, footprints, and 3D models from **PCB-Parts**. Any and all library paths in KiCAD should be [*relative* paths](https://www.redhat.com/sysadmin/linux-path-absolute-relative) so that these repositories remain system-independent and portable.
 
 ## Folder Structure
 The PCB-Design and PCB-Parts repositories should be organized in a parent folder as follows:
@@ -27,8 +29,3 @@ The PCB-Design and PCB-Parts repositories should be organized in a parent folder
         click C "https://github.com/wmBaja/PCB-Parts" _blank;
 
 ```
-
-## OBD Baja 2.0 3D Model
-<body>
-    <iframe src="https://collaborate.shapr3d.com/v/RQxqZTwWx0Oz6eKVTlwwQ" title="Shapr3D Webviewer" width="640" height="640" frameborder="0" allow="web-share; xr-spatial-tracking" loading="lazy" scrolling="no" referrerpolicy="origin-when-cross-origin" allowfullscreen></iframe>
-</body>
