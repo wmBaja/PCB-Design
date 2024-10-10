@@ -1784,31 +1784,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 112.395 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 71929c29-e35e-4d8d-9b75-9e1da865721f)
-    (property "Reference" "#PWR07" (at 112.395 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 112.395 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 112.395 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 112.395 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3db9a6e0-4f1e-48cb-84c8-12fd2ed0c69c))
-    (instances
-      (project "OBDBajaInterface"
-        (path "/c1fadf03-149f-4844-8909-aab26d5c0295"
-          (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 169.545 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86ef34fc-1616-48be-9511-f22eba3c0d59)

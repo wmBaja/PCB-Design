@@ -252,6 +252,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "/Users/jtohahn/Documents/Baja Repos/PCB-Parts/3D Models/OBD Baja/OBDBajaInterface.wrl"
+      (offset (xyz 32.2326 -20.5994 -0.7874))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" (layer "F.Cu")
