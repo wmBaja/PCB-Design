@@ -3091,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 44.45) (xy 134.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102b8ee8-24af-4aa8-90eb-648cc8c00e19")
+	)
+	(wire
+		(pts
 			(xy 95.25 147.32) (xy 100.33 147.32)
 		)
 		(stroke
@@ -3461,16 +3471,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 44.45) (xy 134.62 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d0c458-a17b-4d9c-90b2-077e192a2cb7")
-	)
-	(wire
-		(pts
 			(xy 222.25 99.06) (xy 224.79 99.06)
 		)
 		(stroke
@@ -3488,6 +3488,16 @@
 			(type default)
 		)
 		(uuid "5ba4be18-f21d-4002-9189-34cda93fcc7f")
+	)
+	(wire
+		(pts
+			(xy 128.27 41.91) (xy 134.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c93eaaf-f87c-4bf2-8149-53e0393cc47a")
 	)
 	(wire
 		(pts
@@ -3518,16 +3528,6 @@
 			(type default)
 		)
 		(uuid "66d2abcd-c414-4c3a-94de-0f2ef1aa3856")
-	)
-	(wire
-		(pts
-			(xy 125.73 41.91) (xy 134.62 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672160f7-ef0d-45d0-beba-260290768cca")
 	)
 	(wire
 		(pts
@@ -4063,13 +4063,13 @@
 		(uuid "35300f27-fd9f-4e44-bdbd-bfebe02813f2")
 	)
 	(label "USER2"
-		(at 134.62 44.45 180)
+		(at 128.27 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "44e5820c-9fc8-4cf3-9f2f-cb6e922a05a0")
 	)
@@ -4140,13 +4140,13 @@
 		(uuid "85a750a7-d87b-4113-b29e-034285966ab6")
 	)
 	(label "USER1"
-		(at 134.62 41.91 180)
+		(at 128.27 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8a2b287b-f376-4f97-8cb3-d4c96d96e4af")
 	)
@@ -7340,7 +7340,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.064 48.768 0)
+			(at 134.62 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
