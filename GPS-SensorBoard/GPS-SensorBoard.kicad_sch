@@ -5,7 +5,7 @@
 	(uuid "6c2b8c5e-e617-4dcc-bfbe-6767b59298bb")
 	(paper "A4")
 	(title_block
-		(title "ATtiny Senor Board Template")
+		(title "ATtiny Sensor Board Template")
 		(date "2024-10-17")
 		(rev "1")
 		(company "©️ 2024 Pack Motorsports Baja")

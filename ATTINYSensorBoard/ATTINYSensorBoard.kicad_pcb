@@ -4865,7 +4865,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/93562b4a-82af-4a44-ad6a-5aae53df2077")
+		(path "/ec521a0a-55cc-443d-9a50-50e18f12e269")
 		(sheetname "Root")
 		(sheetfile "ATTINYSensorBoard.kicad_sch")
 		(attr smd)
