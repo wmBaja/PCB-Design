@@ -3956,7 +3956,7 @@
 		(descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.555 360)
+			(at 0 -2.555 0)
 			(layer "F.SilkS")
 			(uuid "0e8a2234-311c-4886-8191-084fe11fa729")
 			(effects
@@ -3967,7 +3967,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 4.385 7.35 360)
+			(at 4.385 7.35 0)
 			(layer "F.Fab")
 			(uuid "be12ad9e-0997-43f1-aeb5-e8d719a53afb")
 			(effects
@@ -7007,7 +7007,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 117.372 94.187 0)
+		(at 117.729 94.187 0)
 		(layer "F.SilkS")
 		(uuid "0a90386d-2033-492c-8148-f535f90865bc")
 		(effects
@@ -7031,7 +7031,7 @@
 		)
 	)
 	(gr_text "PA0"
-		(at 118.372 96.687 0)
+		(at 118.618 96.687 0)
 		(layer "F.SilkS")
 		(uuid "32966301-8bf0-4835-9b81-3a1069edbba9")
 		(effects
@@ -7114,7 +7114,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 117.372 104.22 0)
+		(at 117.729 104.22 0)
 		(layer "F.SilkS")
 		(uuid "907ab596-ad31-4a28-bb65-e087cfe443d1")
 		(effects
@@ -7162,7 +7162,7 @@
 		)
 	)
 	(gr_text "PA1"
-		(at 118.372 106.72 0)
+		(at 118.745 106.807 0)
 		(layer "F.SilkS")
 		(uuid "b39a25eb-78c7-43ff-8bda-3ee8df0f3d13")
 		(effects
