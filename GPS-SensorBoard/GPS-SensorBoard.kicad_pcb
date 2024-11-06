@@ -3481,7 +3481,7 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J4"
-			(at 4.385 -2.27 0)
+			(at 2.994 10.177 0)
 			(layer "F.SilkS")
 			(uuid "2bd6f0cc-acdf-48cc-b950-2d3e7fcbc562")
 			(effects
@@ -6486,7 +6486,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "GND\n"
+	(gr_text "VCC\n"
 		(at 116.078 98.298 0)
 		(layer "F.SilkS")
 		(uuid "61d98c16-88e9-48fa-8656-ca4c97d03d1c")
@@ -6532,7 +6532,7 @@
 			)
 		)
 	)
-	(gr_text "VCC"
+	(gr_text "GND\n"
 		(at 116.205 105.918 0)
 		(layer "F.SilkS")
 		(uuid "8b905ced-228f-458a-bfe1-cbc26882370e")
@@ -6544,7 +6544,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX\n"
+	(gr_text "RX"
 		(at 116.205 103.378 0)
 		(layer "F.SilkS")
 		(uuid "91aa7700-bea3-45bf-8c10-1986a0a47f7e")
@@ -6592,7 +6592,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "RX\n"
+	(gr_text "TX"
 		(at 116.078 100.838 0)
 		(layer "F.SilkS")
 		(uuid "cd030ba0-c87a-4329-a7f1-c50f2a46cd28")
