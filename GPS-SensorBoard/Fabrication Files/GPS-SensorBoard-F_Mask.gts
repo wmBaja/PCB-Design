@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*
-G04 #@! TF.CreationDate,2024-11-05T20:46:49-05:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*
+G04 #@! TF.CreationDate,2024-11-07T19:26:29-05:00*
 G04 #@! TF.ProjectId,GPS-SensorBoard,4750532d-5365-46e7-936f-72426f617264,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2024-11-05 20:46:49*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2024-11-07 19:26:29*
 %MOMM*%
 %LPD*%
 G01*
