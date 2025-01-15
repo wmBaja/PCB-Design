@@ -3,3 +3,4 @@
 # Ignore backups and autosaves
 /**/*-backups
 /**/#auto_saved_files#
+/**/fp-info-cache
