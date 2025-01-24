@@ -1711,8 +1711,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "V+ E+ E-GND"
-		(at 131.5 75.5 270)
+	(gr_text "VCC E+ E-GND"
+		(at 131.5 74.5 270)
 		(layer "F.SilkS")
 		(uuid "5ce195d5-f089-40a8-82ad-7e44f8e8d577")
 		(effects
