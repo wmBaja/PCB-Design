@@ -3515,6 +3515,16 @@
 	)
 	(polyline
 		(pts
+			(xy 135.89 98.425) (xy 137.16 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48241ffc-f5d2-4758-b746-dc3abe3e4dd4")
+	)
+	(polyline
+		(pts
 			(xy 130.175 51.435) (xy 133.35 51.435)
 		)
 		(stroke
@@ -3653,6 +3663,16 @@
 		)
 		(uuid "604639ca-1076-4f08-92a8-823b96f0a448")
 	)
+	(polyline
+		(pts
+			(xy 137.16 92.71) (xy 137.16 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c01d77-2159-4927-a01e-26e5dbd32fb0")
+	)
 	(wire
 		(pts
 			(xy 190.5 74.93) (xy 200.66 74.93)
@@ -3782,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "92e2be30-bbc7-4dd4-9986-100841eabe25")
+	)
+	(polyline
+		(pts
+			(xy 135.89 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936b50ff-4cc3-494c-86ed-b4b7655b9188")
 	)
 	(wire
 		(pts
@@ -4203,6 +4233,26 @@
 		)
 		(uuid "f9598236-99be-4cef-a018-66d413103928")
 	)
+	(text "TXD0"
+		(exclude_from_sim no)
+		(at 119.126 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a335ec3-c050-4879-971f-135419404dce")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 133.604 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "322a4cb9-26e2-466c-9fcd-cb42b88a8f72")
+	)
 	(text "SENSOR\nINPUTS"
 		(exclude_from_sim no)
 		(at 121.92 51.562 0)
@@ -4213,6 +4263,76 @@
 			(justify left)
 		)
 		(uuid "3e69efe6-a65d-470b-a715-04cb9501ead9")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 119.38 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3fb45a98-c412-4413-9cc4-8cf9b2c89924")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 133.604 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d200ba5-aa25-4d22-9c92-1adeb349c0cc")
+	)
+	(text "RXD0"
+		(exclude_from_sim no)
+		(at 134.112 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "559e32ca-682a-4c8d-80ff-eb555f4e5ffa")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 139.446 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92086dcf-c156-4e54-a01d-2f40d33ee610")
+	)
+	(text "RXD0"
+		(exclude_from_sim no)
+		(at 118.872 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ad760d2-a68c-45ef-b6d9-ae5464114bf0")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 119.38 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf70e32b-426d-4917-bed0-fe329aa95153")
+	)
+	(text "TXD0"
+		(exclude_from_sim no)
+		(at 134.366 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f91cf078-6771-44dc-82e0-09d5dcc3d16f")
 	)
 	(label "USER3"
 		(at 130.81 111.76 180)
