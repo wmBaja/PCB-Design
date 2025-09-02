@@ -1,6 +1,7 @@
 .DS_Store
 
-# Ignore backups and autosaves
+# Ignore backups, autosaves, and lock files
 /**/*-backups
 /**/#auto_saved_files#
 /**/fp-info-cache
+/**/*.lck
