@@ -733,6 +733,7 @@
 		(property "Reference" "U1"
 			(at -2.5 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f9f74327-c6ad-4d21-ad65-b62f84c95a5d")
 			(effects
 				(font
@@ -1211,7 +1212,7 @@
 			(uuid "5d47f37e-eb0f-4eba-a30a-773ba5f28bb4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "8c3379df-35ce-4a4a-93f4-1e31e49e184c")
 			(effects
@@ -1710,6 +1711,18 @@
 				(bold yes)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "VCC OUT GND"
+		(at 155.5 99.8 180)
+		(layer "F.SilkS")
+		(uuid "8700edfe-5da9-4437-8e3f-48470af5df48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
