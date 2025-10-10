@@ -3037,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "0.1u"
 			(at 195.834 76.2 0)
 			(effects
 				(font
