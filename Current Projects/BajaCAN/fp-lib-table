@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "oscillator")(type "KiCad")(uri "${KIPRJMOD}/oscillator.pretty")(options "")(descr ""))
-)
