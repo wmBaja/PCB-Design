@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2025-10-16T21:34:12-04:00"
+    "CreationDate": "2025-10-16T21:30:04-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "ads122c04_ADC",
-      "GUID": "61647331-3232-4633-9034-5f4144432e6b",
+      "Name": "SuspensionHallSensor",
+      "GUID": "53757370-656e-4736-996f-6e48616c6c53",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 50.85,
-      "Y": 27.99
+      "X": 22.05,
+      "Y": 12.05
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,49 +27,44 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2032,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "ads122c04_ADC-F_Cu.gbr",
+      "Path": "SuspensionHallSensor-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ads122c04_ADC-B_Cu.gbr",
+      "Path": "SuspensionHallSensor-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ads122c04_ADC-F_Silkscreen.gbr",
+      "Path": "SuspensionHallSensor-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ads122c04_ADC-B_Silkscreen.gbr",
+      "Path": "SuspensionHallSensor-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ads122c04_ADC-F_Mask.gbr",
+      "Path": "SuspensionHallSensor-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ads122c04_ADC-B_Mask.gbr",
+      "Path": "SuspensionHallSensor-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ads122c04_ADC-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ads122c04_ADC-Edge_Cuts.gbr",
+      "Path": "SuspensionHallSensor-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

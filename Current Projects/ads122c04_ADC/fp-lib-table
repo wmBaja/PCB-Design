@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "mouse-bite.pretty-main")(type "KiCad")(uri "${KIPRJMOD}/mouse-bite.pretty-main")(options "")(descr ""))
-  (lib (name "ads122c04_ADC")(type "KiCad")(uri "C:/Users/ethan/Documents/PCB-Design/Current Projects/ads122c04_ADC.pretty")(options "")(descr ""))
-)
