@@ -5486,6 +5486,10 @@
 		(uuid "967a1ca3-e87c-4bed-bee8-545ba262c379")
 	)
 	(no_connect
+		(at 54.61 59.69)
+		(uuid "a6765786-d93c-40ef-8851-3dabd86d152b")
+	)
+	(no_connect
 		(at 184.15 62.23)
 		(uuid "ba1f0862-fc6d-4412-9499-fc48c2ced3ed")
 	)
@@ -7179,7 +7183,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "255ee1c1-587c-4322-b682-901e44ba34f2")
+		(uuid "255ee1c1-587c-4322-b682-901e44ba34f3")
 	)
 	(label "CS"
 		(at 121.92 67.31 0)
@@ -7189,7 +7193,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "255ee1c1-587c-4322-b682-901e44ba34f2")
+		(uuid "255ee1c1-587c-4322-b682-901e44ba34f4")
 	)
 	(label "SCK"
 		(at 121.92 69.85 0)
@@ -7199,7 +7203,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "255ee1c1-587c-4322-b682-901e44ba34f2")
+		(uuid "255ee1c1-587c-4322-b682-901e44ba34f5")
 	)
 	(label "MCP_STBY"
 		(at 44.45 85.09 0)
@@ -7249,7 +7253,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cc30c86f-dd9e-4ef6-9817-fae33cdebc4f")
+		(uuid "cc30c86f-dd9e-4ef6-9817-fae33cdebc50")
 	)
 	(label "OSC1"
 		(at 121.92 82.55 0)
@@ -7269,7 +7273,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "cd3d1808-1b54-4103-ad8f-23e570ea0eeb")
+		(uuid "cd3d1808-1b54-4103-ad8f-23e570ea0eec")
 	)
 	(global_label "PD7"
 		(shape input)
