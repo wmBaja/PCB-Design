@@ -5486,10 +5486,6 @@
 		(uuid "967a1ca3-e87c-4bed-bee8-545ba262c379")
 	)
 	(no_connect
-		(at 54.61 59.69)
-		(uuid "a6765786-d93c-40ef-8851-3dabd86d152b")
-	)
-	(no_connect
 		(at 184.15 62.23)
 		(uuid "ba1f0862-fc6d-4412-9499-fc48c2ced3ed")
 	)
@@ -7442,6 +7438,28 @@
 		(uuid "5977af55-1072-4d45-8975-6f269961fd85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.8753 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UPDI"
+		(shape input)
+		(at 54.61 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79549d02-ec2f-4db7-8669-9e959ee4a0df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1495 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
