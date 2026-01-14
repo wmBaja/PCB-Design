@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "NCSU Baja CAN Node")
-		(date "2025-09-06")
-		(rev "1")
-		(company "NCSU Baja")
+		(date "2025-11-10")
+		(rev "2")
+		(company "Pack Motorsports Baja")
+		(comment 1 "Engineer: Jacob Hahn")
+		(comment 2 "Designed in Raleigh, NC")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
