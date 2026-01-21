@@ -493,4 +493,27 @@
 		(uuid "e6eae18b-fd85-4f24-a167-6509e757cc01")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/348302004.stp"
+		(hide yes)
+		(offset
+			(xyz 15.75 6.6 -8.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3D/348302004_colored.step"
+		(offset
+			(xyz 15.75 6.6 -8.79)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
