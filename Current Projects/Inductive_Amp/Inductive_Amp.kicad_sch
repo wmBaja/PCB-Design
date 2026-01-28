@@ -2386,6 +2386,12 @@
 		(uuid "1d93b24c-918d-416e-b9b4-7edfeba3886e")
 	)
 	(junction
+		(at 80.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a858463-3927-41ab-b134-2443d74a491f")
+	)
+	(junction
 		(at 218.44 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2566,6 +2572,26 @@
 			(type default)
 		)
 		(uuid "19fda332-7329-4be3-8cfb-0aafee796c0b")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3e238c-56fe-4e91-9985-8fec3bd42bbd")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e46003f-6493-433a-951e-cea9ace19d20")
 	)
 	(wire
 		(pts
@@ -2819,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 81.28) (xy 80.01 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e13eaa-558d-45f0-a2a6-7821b0f1def4")
+	)
+	(wire
+		(pts
 			(xy 224.79 93.98) (xy 224.79 95.25)
 		)
 		(stroke
@@ -3019,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 69.85 80.01)
+			(xy 58.42 80.01) (xy 67.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 88.9 80.01)
+			(xy 74.93 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4542,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 144.78 62.23 0)
 			(effects
 				(font
@@ -4755,6 +4791,71 @@
 			(project ""
 				(path "/98a5ffd3-028c-4fe9-b0d1-6655fc45bd8e"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5272d700-5751-4eff-b758-646afe340335")
+		(property "Reference" "#PWR025"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca29464-b2ce-46d7-8519-adf93ddd4ebf")
+		)
+		(instances
+			(project "Inductive_Amp"
+				(path "/98a5ffd3-028c-4fe9-b0d1-6655fc45bd8e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5504,6 +5605,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830a5f7e-8450-41b9-bda5-f897279706ea")
+		(property "Reference" "R6"
+			(at 81.534 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 80.01 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 78.232 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a14bc66-f51b-4fba-aa9a-a9303530eaf0")
+		)
+		(pin "2"
+			(uuid "22eb5d4c-c982-4565-bce3-28876bd8e258")
+		)
+		(instances
+			(project ""
+				(path "/98a5ffd3-028c-4fe9-b0d1-6655fc45bd8e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 113.03 0)
 		(unit 1)
@@ -5950,7 +6120,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 73.66 80.01 90)
+		(at 71.12 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5958,7 +6128,7 @@
 		(dnp no)
 		(uuid "9b6b188c-7a7d-44c9-974d-d115f9b02b2c")
 		(property "Reference" "R4"
-			(at 73.66 77.724 90)
+			(at 71.12 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6136,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 73.66 80.01 90)
+			(at 71.12 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +6144,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 73.66 81.788 90)
+			(at 71.12 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 80.01 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6162,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 73.66 80.01 0)
+			(at 71.12 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
