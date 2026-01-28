@@ -2369,6 +2369,16 @@
 		)
 		(uuid "a478305d-87eb-4332-95ee-d8e05c91a216")
 	)
+	(text "Keeps amp quiet\nw/ no sensor"
+		(exclude_from_sim no)
+		(at 68.326 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5964c19-81c8-41c2-9517-bda3e926534a")
+	)
 	(text "Low Pulse (ignore): ~400mV\nHigh Pulse (capture): ~1V - 1.2V\n\nHigh P -> AMP -> 1.9V or higher\nLow P -> AMP -> less than 1.4V\n\nGain = ~2.5 is ideal"
 		(exclude_from_sim no)
 		(at 93.98 61.468 0)
@@ -2722,6 +2732,16 @@
 			(type default)
 		)
 		(uuid "46e1658c-1cd3-456e-b5a9-b09afa683caa")
+	)
+	(polyline
+		(pts
+			(xy 69.215 92.71) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4986951e-0850-4462-9de6-1926110828d8")
 	)
 	(wire
 		(pts
