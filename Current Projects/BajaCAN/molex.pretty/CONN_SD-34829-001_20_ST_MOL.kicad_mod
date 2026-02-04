@@ -507,7 +507,7 @@
 	)
 	(model "${KIPRJMOD}/3D/348302004_colored.step"
 		(offset
-			(xyz 15.75 6.6 -8.79)
+			(xyz 15.75 6.6 -8.51)
 		)
 		(scale
 			(xyz 1 1 1)
