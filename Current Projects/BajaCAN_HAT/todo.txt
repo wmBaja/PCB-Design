@@ -1,0 +1,4 @@
+[In Progress] : Schematic
+    //  Currently importing all parts onto the schematic sheet following the specifications on the website
+    // https://www.waveshare.com/2-ch-can-fd-hat.htm
+[] : PCB
