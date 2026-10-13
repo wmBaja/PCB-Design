@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_352995"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-11:40:14)
+    (utime 2025-07-26-18:31:33)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "SM24CANB-02HTG")
+)
+
+
+(pinAssign "ECS_352995"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-11:40:14)
+    (utime 2025-07-26-18:31:33)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_352995")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SM24CANB-02HTG")
+)
+
+
+(part "SM24CANB-02HTG"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-10-31-11:40:14)
+    (utime 2025-07-26-18:31:33)
+    (packageRef "SM24CANB-02HTG")
+    (pinAssignRef "ECS_352995")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "2Channel 30KV 24V 500W TVS Diode Array")
+    (property "Manufacturer_Name" "LITTELFUSE")
+    (property "Manufacturer_Part_Number" "SM24CANB-02HTG")
+    (property "Mouser_Part_Number" "576-SM24CANB-02HTG")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SM24CANB-02HTG?qs=bWsWnctWn1wbKmCYlcUmHw%3D%3D")
+    (property "Arrow_Part_Number" "SM24CANB-02HTG")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/sm24canb-02htg/littelfuse.html?utm_currency=USD&region=asia")
+    (property "Datasheet_Link" "https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/general-purpose/sm24canb/sm24canb-02htg")
+    (property "compAreaTopHeight" 1.12)
+)
+
+

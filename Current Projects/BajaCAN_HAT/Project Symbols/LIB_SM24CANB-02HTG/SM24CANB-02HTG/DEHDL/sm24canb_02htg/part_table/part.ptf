@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SM24CANB_02HTG'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SM24CANB-02HTG" (!) = "", "SM24CANB02HTG", "Other", "576-SM24CANB-02HTG", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SM24CANB-02HTG?qs=bWsWnctWn1wbKmCYlcUmHw%3D%3D", "SM24CANB-02HTG", "https://www.arrow.com/en/products/sm24canb-02htg/littelfuse.html?utm_currency=USD&region=asia", "2Channel 30KV 24V 500W TVS Diode Array", "https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/general-purpose/sm24canb/sm24canb-02htg", "1.12 mm"
+END_PART
+
+END.

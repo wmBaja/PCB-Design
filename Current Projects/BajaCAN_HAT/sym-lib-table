@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RT9193-33GB")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols/RT9193-33GB/KiCADv6/2026-10-13_22-43-55.kicad_sym")(options "")(descr ""))
+  (lib (name "SM24CANB")(type "KiCad")(uri "${KIPRJMOD}/Project Symbols/LIB_SM24CANB-02HTG/SM24CANB-02HTG/KiCad/SM24CANB-02HTG.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,18 @@
+.SM24CANB-02HTG :1 ;2Channel 30KV 24V 500W TVS Diode Array
+SM24CANB02HTG
+*STM D
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN SM24CANB-02HTG
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SM24CANB-02HTG)
+~!Mouser Part Number (576-SM24CANB-02HTG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SM24CANB-02HTG?qs=bWsWnctWn1wbKmCYlcUmHw%3D%3D)
+~!Arrow Part Number (SM24CANB-02HTG)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sm24canb-02htg/littelfuse.html?utm_currency=USD&region=asia)
+~!Link Datasheet (https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/general-purpose/sm24canb/sm24canb-02htg)
+~!Height (1.12mm)
+~!3D_Model (SM24CANB-02HTG)
+SM24CANB-02HTG
+1.1!U 2.1!U 3.1!U 

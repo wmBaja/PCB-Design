@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SM24CANB-02HTG
+D 2Channel 30KV 24V 500W TVS Diode Array
+K
+F https://www.littelfuse.com/products/overvoltage-protection/tvs-diode-arrays/general-purpose/sm24canb/sm24canb-02htg
+$ENDCMP
+#
+#End Doc Library

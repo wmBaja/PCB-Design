@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SM24CANB-02HTG
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=3
+Version=2.2
+Released=2018-10-31 11:40:14
+Downloaded=2026-10-14 00:02:56
+3D=Y
