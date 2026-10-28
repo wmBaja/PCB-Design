@@ -260,7 +260,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|673100|990600|e5abb923-88f8-4054-ae91-236eacce3696|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|774700|990600|e5abb923-88f8-4054-ae91-236eacce3696|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -661,7 +670,7 @@
         "uuid": "69e433ab-54fd-4a5a-baf1-d20b54de314a"
       }
     ],
-    "used_designators": "U1,#PWR1",
+    "used_designators": "U1,#PWR1-4,C1-4,J1-4,R1-2",
     "variants": []
   },
   "sheets": [
