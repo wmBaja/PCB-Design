@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "wolftrack-node") (type "KiCad") (uri "${KIPRJMOD}/wolftrack-node.kicad_sym") (options "") (descr ""))
+)
