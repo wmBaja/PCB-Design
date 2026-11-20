@@ -716,7 +716,7 @@
         "uuid": "ac1013b9-6280-4dce-a439-5fca1fe2ab07"
       }
     ],
-    "used_designators": "#PWR40-41,#PWR44,#PWR81,#PWR86,#PWR88,CR5,D2,R2-5,R8,R23-34",
+    "used_designators": "#PWR40-41,#PWR44,#PWR51,#PWR81,#PWR86,#PWR88,CR5,D2,R2-5,R8,R23-34",
     "variants": []
   },
   "sheets": [
@@ -735,10 +735,6 @@
     [
       "f750a0fc-8173-4c39-b737-2386c23d3b7d",
       "Power"
-    ],
-    [
-      "583760f6-84e6-4319-b3a0-25707275077c",
-      "ADC"
     ]
   ],
   "text_variables": {},

@@ -1,0 +1,175 @@
+(footprint "L_Wurth_WE-HCC-1210ferrite"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded High Current Cube Inductor, body 12.1x11.4x9.5mm, https://www.we-online.com/en/components/products/WE-HCC#/articles/WE-HCC-1210_FERRITE")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -6.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2c058df0-ed31-4de3-8cde-abbbb73aacdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-HCC-1210ferrite"
+		(at 0 6.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5890484-7f67-4142-98d5-77559c67fcfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe62b37d-05e5-419f-8946-2e7f82f813c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f47e9798-f35c-4c6f-8e2c-241b18bf9e62")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.16 -5.81)
+		(end -6.16 -2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "390fe801-bffb-41c4-a2c2-37c93912d57e")
+	)
+	(fp_line
+		(start -6.16 -5.81)
+		(end 6.16 -5.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f16dc4d8-7755-482a-be4b-34e7819e6bf3")
+	)
+	(fp_line
+		(start -6.16 5.81)
+		(end -6.16 2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "093948e0-6466-4baf-9c71-6dd60789d8f6")
+	)
+	(fp_line
+		(start -6.16 5.81)
+		(end 6.16 5.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "190f4784-98e3-489b-a5f8-0086198c2c59")
+	)
+	(fp_line
+		(start 6.16 -5.81)
+		(end 6.16 -2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3094ad30-eae7-4ee1-88ca-a41be64801f7")
+	)
+	(fp_line
+		(start 6.16 5.81)
+		(end 6.16 2.96)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3170841b-a50b-417c-9c2f-fad50b6cdba8")
+	)
+	(fp_rect
+		(start -6.65 -5.95)
+		(end 6.65 5.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2a495eeb-f585-43ed-9b83-3231ea4d84c4")
+	)
+	(fp_rect
+		(start -6.05 -5.7)
+		(end 6.05 5.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c854dca7-5365-436e-ac95-183abd475367")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec10d577-5f61-4684-a36e-f0b3d999d71f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f8917362-19ec-48c2-911b-399e818f172a")
+	)
+	(pad "2" smd rect
+		(at 4.95 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "128f67cc-13af-4e11-bad9-f1fa768f3c28")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-HCC-1210ferrite.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -52,52 +52,6 @@
 		)
 	)
 	(sheet
-		(at 220.98 54.61)
-		(size 35.56 34.29)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "583760f6-84e6-4319-b3a0-25707275077c")
-		(property "Sheetname" "ADC"
-			(at 220.98 53.8984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ADC.kicad_sch"
-			(at 220.98 89.4846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "wolftrack-node"
-				(path "/ac1013b9-6280-4dce-a439-5fca1fe2ab07"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 137.16 54.61)
 		(size 36.83 35.56)
 		(exclude_from_sim no)
